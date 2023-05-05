@@ -1,13 +1,13 @@
+import { Header } from "@/components/Header";
+import { Ticket } from "@/components/Ticket";
+
 export default function Tickets() {
   return (
     <div className="flex flex-col flex-1 min-h-screen ">
-      <div className="px-4 py-4 bg-slate-100">
-        <div className="flex flex-row items-center justify-between">
-        <h1 className="text-black">VibeAsk</h1>
-        <button className="px-4 bg-white py-2 text-[#835AFD] text-sm border-[0.5px] border-[#835AFD] rounded-lg">
-          Abrir Ticket
-        </button>
-        </div>
+     <Header/>
+      <div className="flex flex-col flex-1 px-4 bg-slate-50">
+        <h1 className="text-4xl font-bold text-black">Ticket</h1>
+        <Ticket/>
       </div>
     </div>
   );
