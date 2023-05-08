@@ -1,6 +1,6 @@
 export function Ticket() {
   return (
-    <div className="flex flex-col px-8 py-4 bg-white border-l-8 rounded-md border-l-green-600">
+    <div className="flex flex-col w-full px-8 py-4 bg-white border-l-8 rounded-md border-l-green-600">
       <div className="flex flex-row items-center justify-between">
         <div>
           <h1 className="text-2xl">#543465 - Como eu tiro minhas férias?</h1>
